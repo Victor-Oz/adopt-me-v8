@@ -4,6 +4,7 @@ import { BrowserRouter, Routes, Route, Link } from "react-router-dom";
 import SearchParams from "./SearchParams";
 import Details from "./Details";
 
+
 const queryClient = new QueryClient({
   defaultOptions: {
     queries: {
